@@ -1,0 +1,13 @@
+<h3>Ingredientes</h3>
+<form #f="ngForm" (submit)="form_submit(f)">
+  <input class="form-control" type="text" ngModel name="quantidade" placeholder="Quantidade">
+  <br />
+  <input class="form-control" type="text" ngModel name="ingrediente" placeholder="Ingrediente">
+  <br />
+  <button class="btn btn-secondary" type="submit">+</button>
+</form>
+<ul>
+  <li *ngFor="let r of receitas">
+    {{ r.quantidade + " " + r.ingrediente}}
+  </li>
+</ul>

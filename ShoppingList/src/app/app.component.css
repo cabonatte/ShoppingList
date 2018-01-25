@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'ShadowsIntoLight';
+    src: url('/assets/fonts/ShadowsIntoLight.ttf');
+ }
+h1{
+    color:#f33544;
+    text-align: center;
+}
+
+section{
+    width: 400px;
+    background-color:#ADD8E6;
+    height: 100vh;
+}
+
+form{
+    margin-right: 30px;
+    padding: 10px;
+    color: "#333333"
+}
